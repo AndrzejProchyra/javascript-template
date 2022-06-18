@@ -7,3 +7,5 @@ A skeleton project for JavaScript fun and games!
 ### Jest
 
 ### Babel
+
+### ESLint
