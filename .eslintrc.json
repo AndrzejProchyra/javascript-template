@@ -16,9 +16,5 @@
     "sourceType": "module"
   },
   "rules": {},
-  "plugins": [
-    "jest",
-    "jest-extended",
-    "jest-formatting"
-  ]
+  "plugins": ["jest", "jest-extended", "jest-formatting"]
 }
