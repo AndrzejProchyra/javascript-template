@@ -7,7 +7,8 @@
     "eslint:recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
-    "plugin:jest-extended/all"
+    "plugin:jest-extended/all",
+    "plugin:jest-formatting/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -16,6 +17,7 @@
   "rules": {},
   "plugins": [
     "jest",
-    "jest-extended"
+    "jest-extended",
+    "jest-formatting"
   ]
 }
