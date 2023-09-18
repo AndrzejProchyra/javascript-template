@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.20",
-    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-env": "^7.22.20",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-jest": "^27.4.0",
