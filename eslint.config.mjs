@@ -17,6 +17,9 @@ export default [
     languageOptions: {
       globals: pluginJest.environments.globals.globals,
     },
+    rules: {
+      "jest/padding-around-all": "error",
+    },
   },
   pluginJest.configs["flat/recommended"],
   pluginJest.configs["flat/style"],
