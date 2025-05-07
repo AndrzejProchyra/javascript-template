@@ -18,7 +18,7 @@
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.27.2",
     "@eslint/js": "^9.25.1",
-    "eslint": "^9.25.0",
+    "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-jest-extended": "^3.0.0",
