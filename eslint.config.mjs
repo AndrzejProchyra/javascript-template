@@ -1,7 +1,7 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
 import pluginJest from "eslint-plugin-jest";
-import pluginJestExtended from "eslint-plugin-jest-extended";
+// import pluginJestExtended from "eslint-plugin-jest-extended";
 import eslintConfigPrettier from "eslint-config-prettier";
 
 /** @type {import("eslint").Linter.Config[]} */
@@ -12,7 +12,7 @@ export default [
     files: ["**/*.spec.js", "**/*.test.js"],
     plugins: {
       jest: pluginJest,
-      jestExtended: pluginJestExtended,
+      // jestExtended: pluginJestExtended,
     },
     languageOptions: {
       globals: pluginJest.environments.globals.globals,
@@ -23,6 +23,6 @@ export default [
   },
   pluginJest.configs["flat/recommended"],
   pluginJest.configs["flat/style"],
-  pluginJestExtended.configs["flat/all"],
+  // pluginJestExtended.configs["flat/all"],
   eslintConfigPrettier,
 ];
