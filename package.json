@@ -28,6 +28,6 @@
     "jest": "^30.4.2",
     "jest-extended": "^7.0.0",
     "lint-staged": "^17.0.8",
-    "prettier": "^3.9.1"
+    "prettier": "^3.9.4"
   }
 }
