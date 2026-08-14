@@ -17,7 +17,10 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^8.0.1",
