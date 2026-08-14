@@ -1,12 +1,13 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
-import { defineConfig } from "eslint/config";
+import { defineConfig, globalIgnores } from "eslint/config";
 import pluginJest from "eslint-plugin-jest";
 import packageJson from "eslint-plugin-package-json";
 // import pluginJestExtended from "eslint-plugin-jest-extended";
 import eslintConfigPrettier from "eslint-config-prettier";
 
 export default defineConfig([
+  globalIgnores(["coverage/"]),
   { languageOptions: { globals: globals.node } },
   pluginJs.configs.recommended,
   {
