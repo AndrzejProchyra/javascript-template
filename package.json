@@ -1,11 +1,6 @@
 {
   "name": "javascript-template",
-  "version": "1.0.0",
   "private": "true",
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
