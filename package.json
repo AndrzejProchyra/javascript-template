@@ -1,6 +1,6 @@
 {
   "name": "javascript-template",
-  "private": "true",
+  "private": true,
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
